@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1699427907881,72,Admin Login,200,OK,Thread Group 1-1,text,true,,592,310,1,1,http://dmoney.roadtocareer.net/user/login,67,0,37
+1699427907994,39,Admin Creates an Agent,201,Created,Thread Group 1-1,text,true,,611,612,1,1,http://dmoney.roadtocareer.net/user/create,38,0,0
+1699427908034,34,Admin Creates a Customer,201,Created,Thread Group 1-1,text,true,,614,615,1,1,http://dmoney.roadtocareer.net/user/create,34,0,0
+1699427908069,33,Deposit from System to Agent,208,Already Reported,Thread Group 1-1,text,true,,421,527,1,1,http://dmoney.roadtocareer.net/transaction/deposit,33,0,0
+1699427908103,75,Deposit from Agent to Customer,208,Already Reported,Thread Group 1-1,text,true,,417,533,1,1,http://dmoney.roadtocareer.net/transaction/deposit,75,0,0
+1699427908179,36,Customer Balance Check,200,OK,Thread Group 1-1,text,true,,374,432,1,1,http://dmoney.roadtocareer.net/transaction/balance/01775655787,36,0,0
+1699427908216,21,Withdraw from Customer,208,Already Reported,Thread Group 1-1,text,true,,417,532,1,1,http://dmoney.roadtocareer.net/transaction/withdraw,21,0,0
+1699427908238,21,Payment from Customer to Merchant,208,Already Reported,Thread Group 1-1,text,true,,417,531,1,1,http://dmoney.roadtocareer.net/transaction/payment,21,0,0
+1699427908259,16,Latest Customer Balance Check,200,OK,Thread Group 1-1,text,true,,374,432,1,1,http://dmoney.roadtocareer.net/transaction/balance/01775655787,15,0,0
