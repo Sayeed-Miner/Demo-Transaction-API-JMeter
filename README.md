@@ -18,11 +18,13 @@ https://jmeter.apache.org/download_jmeter.cgi
 ## How to generate JMeter HTML Report:
 - Download "Demo Transaction API.jmx" file
 - Open Command Prompt(CMD) on your system
-Example: cd C:\Users\Sayeed\Downloads
 - Run command for generate HTML Report
 ```bash
 jmeter -n -t <Downloaded .jmx File Path> -l <Auto Generated Test Log File> -e -o <Path to Output Folder>
 ```
-Example: jmeter -n -t "C:\Users\NAYEEM\Desktop\Demo Transaction API.jmx" -l "C:\Users\NAYEEM\Desktop\Test Log File.csv" -e -o "C:\Users\NAYEEM\Desktop\HTML Report" 
+Example
+```bash
+jmeter -n -t "C:\Users\Sayeed\Downloads\Demo Transaction API.jmx" -l "C:\Users\Sayeed\Downloads\Test Log File.csv" -e -o "C:\Sayeed\Sayeed\Downloads\HTML Report"
+```
 
 ## JMeter HTML Report Screenshot:
