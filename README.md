@@ -3,17 +3,17 @@
 ## Tools:
 - JMeter
 
-## Prerequisite:
+## Prerequisite Software:
 - JDK
   
 ## How to run this project:
-- Download JMeter from given link
+- Download JMeter from following link
 ```bash
 https://jmeter.apache.org/download_jmeter.cgi
 ```
 - Download "Demo Transaction API.jmx" file
 - Run "ApacheJMeter.jar" from JMeter Bin folder
-- Open downloaded "Demo Transaction API.jmx" file from JMeter then click on the "Start" button
+- Open downloaded "Demo Transaction API.jmx" file in JMeter then click on the "Start" button
 
 ## How to generate JMeter HTML Report:
 - Download "Demo Transaction API.jmx" file
@@ -27,7 +27,7 @@ Example
 jmeter -n -t "C:\Users\Sayeed\Downloads\Demo Transaction API.jmx" -l "C:\Users\Sayeed\Downloads\Test Log File.csv" -e -o "C:\Sayeed\Sayeed\Downloads\HTML Report"
 ```
 
-## JMeter HTML Report:
+## Online JMeter HTML Report:
 https://precious-crepe-05e071.netlify.app/
 
 ## JMeter HTML Report Screenshots:
